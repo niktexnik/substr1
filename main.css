@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana;
+    font-size: 13px;
+    color: #333;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 50%) 50% 50%, skyblue;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 50%) 50% 50%, skyblue;
+    background-size: 5em 5em;
+    padding: 40px;
+  /*  background-size: 5em 5em;
+    background: linear-gradient(90deg,rgba(255,255,255,.15) 50%,rgba(255,255,255,0) 50%) 50% 50%,skyblue;*/
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+    border: 1px solid #fff;
+    padding: 20px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.25);
+    text-align: center;
+  }
+  #window{
+    text-align: center;
+    margin-left: 25px;
+  }

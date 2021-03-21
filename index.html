@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>substr</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <script src="substr.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <form name="my" id="window">
+    <label for="substr">Input word</label>
+    <input type="text" name="substr" title="Только русские и английские слова без пробелов" pattern="^[A-Za-zА-Яа-яЁё]+$" id="str">
+    <label for="substrstart">Input start position</label>
+    <input type="number" name="substrstart" title="Используйте числовой формат" pattern="^[0-9]+$" id="start">
+    <label for="substrsize">Input length</label>
+    <input type="number" name="substrsize" title="Используйте числовой формат" pattern="^[0-9]+$" id="size">
+    <input type="submit" value="submit">
+  </form>
+  <p> 
+    Result:  
+    <span id="resultSpan">N/A</span>
+  </p>
+</div>
+</body>
+
+</html>
